@@ -1,29 +1,29 @@
 import { FC } from "react";
 import { ScrollView, Text, StyleSheet, View, Image } from "react-native";
-import icon from '../assets/favicon.png';
+import disney from '../assets/disney.jpg';
 const StoriesComponent: FC = () => {
   return (
     <ScrollView horizontal style={styles.ScrollStyle}>
-      <Image source={icon} style={styles.ImageStyle} />
-      <Image source={icon} style={styles.ImageStyle} />
-      <Image source={icon} style={styles.ImageStyle} />
-      <Image source={icon} style={styles.ImageStyle} />
-      <Image source={icon} style={styles.ImageStyle} />
-      <Image source={icon} style={styles.ImageStyle} />
-      <Image source={icon} style={styles.ImageStyle} />
+      <Image source={disney} style={styles.ImageStyle} />
+      <Image source={disney} style={styles.ImageStyle} />
+      <Image source={disney} style={styles.ImageStyle} />
+      <Image source={disney} style={styles.ImageStyle} />
+      <Image source={disney} style={styles.ImageStyle} />
+      <Image source={disney} style={styles.ImageStyle} />
+      <Image source={disney} style={styles.ImageStyle} />
     </ScrollView>
   );
 };
 
 const styles = StyleSheet.create({
   ImageStyle: {
-    height: 50,
-    width: 50,
+    height: 70,
+    width: 70,
     borderRadius: 50,
     marginRight: 20,
   },
   ScrollStyle: {
-    paddingTop: 5,
+    paddingTop: 10,
     paddingBottom: 5,
     backgroundColor: 'black',
   },

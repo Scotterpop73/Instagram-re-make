@@ -8,11 +8,11 @@ const NavBarComponent: FC = () =>{
                 <Text style={[styles.WhiteText, styles.HeaderText]}>Instagram</Text>
             </View>
             <View style={[{paddingRight: 15}, styles.CenterMain]}>
-                <Text style={[styles.WhiteText, styles.HeaderText2]}>Notifications</Text>
+                <Text style={[styles.WhiteText, styles.SubHeading]}>Notifications</Text>
                 
             </View>
             <View style={styles.CenterMain}>
-                <Text style={[styles.WhiteText, styles.HeaderText2]}>Profile</Text>
+                <Text style={[styles.WhiteText, styles.SubHeading]}>Profile</Text>
             </View>
         </View>
     ) 
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     HeaderText: {
         fontSize: 30,
     },
-    HeaderText2:{
+    SubHeading:{
         fontSize: 20,
     },
     CenterMain: {
